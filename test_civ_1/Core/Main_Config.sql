@@ -1,6 +1,6 @@
 --========================================================================================================================
 -- Mod config
--- This file is where you wireup all the details of your new civ / leader
+-- This file is where you wireup all the details of your new civ /  leader
 
 --------------------------------------------------------------------------------------------------------------------------
 -- LeaderTraits
