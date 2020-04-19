@@ -47,9 +47,6 @@
     <Content Include="Core\Leader_Traits\Leader_Unique_Trait_2.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Localisations\Civ_Localisation.xml">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Core\Localisations\Leader_Localisation.xml">
       <SubType>Content</SubType>
     </Content>
@@ -63,9 +60,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Unique_Buildings\Unique_Building_1.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Unique_Units\Unique_Unit_1.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="README.md">

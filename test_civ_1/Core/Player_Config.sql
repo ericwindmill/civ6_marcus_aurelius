@@ -5,14 +5,26 @@
 
 --==========================================================================================================================
 -- CONFIG DATA
--- This config file makes your new civ and leader compatible with Rise and Fall expansion. It's unlikely you'll
--- need to change this file.
--- TODO: I have a feeling I'll need to change this file
+-- This config file tells the game about your new civ, allowing you select it while creating a game
 --==========================================================================================================================
 -- Players
 -------------------------------------	
-INSERT INTO Players	
-		(CivilizationType,						Portrait,								PortraitBackground,							LeaderType,						LeaderName,									LeaderIcon,								LeaderAbilityName,								LeaderAbilityDescription,									LeaderAbilityIcon,						CivilizationName,							CivilizationIcon,						CivilizationAbilityName,						CivilizationAbilityDescription,								CivilizationAbilityIcon)
+INSERT INTO Players	(
+		CivilizationType,						
+		Portrait,
+		PortraitBackground,	
+		LeaderType,
+		LeaderName,
+		LeaderIcon,
+		LeaderAbilityName,
+		LeaderAbilityDescription,
+		LeaderAbilityIcon,
+		CivilizationName,
+		CivilizationIcon,
+		CivilizationAbilityName,
+		CivilizationAbilityDescription,
+		CivilizationAbilityIcon
+		)
 VALUES	(
 			'CIVILIZATION_EBW_CIV_CUSTOM',			
 			'LEADER_LEADER_CUSTOM_NEUTRAL.dds',		
@@ -34,8 +46,15 @@ VALUES	(
 -------------------------------------
 -- PlayerItems
 -------------------------------------	
-INSERT INTO PlayerItems	
-		(CivilizationType,					LeaderType,					Type,							Icon,								Name,									  	Description,									SortIndex)
+INSERT INTO PlayerItems	(
+		CivilizationType,
+		LeaderType,
+		Type,
+		Icon,
+		Name,
+		Description,
+		SortIndex
+		)
 VALUES	(
 			'CIVILIZATION_EBW_CIV_CUSTOM',		
 			'LEADER_EBW_LEADER_CUSTOM',	

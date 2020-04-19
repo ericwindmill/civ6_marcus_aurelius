@@ -3,7 +3,7 @@
 	<LocalizedText>
 		<!--LEADER-->
 		<Row Tag="LOC_LEADER_EBW_LEADER_CUSTOM_NAME" Language="en_US">
-			<Text>Sheep</Text>
+			<Text>Marcus Aurelius</Text>
 		</Row>
 		
 		
@@ -15,13 +15,13 @@
 		
 		<!--Civilopedia-->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EBW_LEADER_CUSTOM_TITLE" Language="en_US">
-			<Text>Sheep</Text>
+			<Text>Marcus Aurelius</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EBW_LEADER_CUSTOM_SUBTITLE" Language="en_US">
-			<Text>You Leaders Title</Text>
+			<Text>The Philosopher King</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EBW_LEADER_CUSTOM_QUOTE" Language="en_US">
-			<Text>Your Leaders Quote</Text>
+			<Text>Quit wasting time asking what a good man should be. Be one.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EBW_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>paragraphc 1 etc...</Text>
