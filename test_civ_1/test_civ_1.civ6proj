@@ -71,7 +71,7 @@
     <Content Include="Core\Unique_Units\Unique_Unit_1.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="README.txt">
+    <Content Include="README.md">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Reference\colors.txt">

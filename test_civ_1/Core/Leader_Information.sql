@@ -13,31 +13,31 @@
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Types	
 		(Type,							Kind)
-VALUES	('LEADER_JRA_LEADER_CUSTOM',	'KIND_LEADER');	
+VALUES	('LEADER_EBW_LEADER_CUSTOM',	'KIND_LEADER');	
 --------------------------------------------------------------------------------------------------------------------------
 -- Leaders
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Leaders	
 		(LeaderType,					Name,										InheritFrom,		SceneLayers)
-VALUES	('LEADER_JRA_LEADER_CUSTOM',	'LOC_LEADER_JRA_LEADER_CUSTOM_NAME',		'LEADER_DEFAULT',	4);	
+VALUES	('LEADER_EBW_LEADER_CUSTOM',	'LOC_LEADER_EBW_LEADER_CUSTOM_NAME',		'LEADER_DEFAULT',	4);	
 --------------------------------------------------------------------------------------------------------------------------
 -- LeaderQuotes
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LeaderQuotes	
 		(LeaderType,			Quote)
-VALUES	('LEADER_JRA_LEADER_CUSTOM',	'LOC_PEDIA_LEADERS_PAGE_LEADER_JRA_LEADER_CUSTOM_QUOTE');	
+VALUES	('LEADER_EBW_LEADER_CUSTOM',	'LOC_PEDIA_LEADERS_PAGE_LEADER_EBW_LEADER_CUSTOM_QUOTE');	
 --------------------------------------------------------------------------------------------------------------------------
 -- HistoricalAgendas
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO HistoricalAgendas	
 		(LeaderType,					AgendaType)
-VALUES	('LEADER_JRA_LEADER_CUSTOM',	'AGENDA_PEACEKEEPER');
+VALUES	('LEADER_EBW_LEADER_CUSTOM',	'AGENDA_PEACEKEEPER');
 --------------------------------------------------------------------------------------------------------------------------
 -- AgendaPreferredLeaders
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO AgendaPreferredLeaders	
 		(LeaderType,					AgendaType)
-VALUES	('LEADER_JRA_LEADER_CUSTOM',	'AGENDA_CIVILIZED');	
+VALUES	('LEADER_EBW_LEADER_CUSTOM',	'AGENDA_CIVILIZED');	
 
 
 
@@ -50,7 +50,7 @@ VALUES	('LEADER_JRA_LEADER_CUSTOM',	'AGENDA_CIVILIZED');
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO PlayerColors	
 		(Type,							Usage,			PrimaryColor, 										SecondaryColor,											TextColor)
-VALUES	('LEADER_JRA_LEADER_CUSTOM',	'Unique',		'COLOR_PLAYER_JRA_CIV_CUSTOM_LEADER_CUSTOM_PRIMARY',		'COLOR_PLAYER_JRA_CIV_CUSTOM_LEADER_CUSTOM_SECONDARY', 		'COLOR_PLAYER_WHITE_TEXT');	
+VALUES	('LEADER_EBW_LEADER_CUSTOM',	'Unique',		'COLOR_PLAYER_EBW_CIV_CUSTOM_LEADER_CUSTOM_PRIMARY',		'COLOR_PLAYER_EBW_CIV_CUSTOM_LEADER_CUSTOM_SECONDARY', 		'COLOR_PLAYER_WHITE_TEXT');	
 
 --
 -- To adjust the colors, change the number values under 'Red', 'Green', 'Blue' and 'Alpha'
@@ -59,8 +59,8 @@ VALUES	('LEADER_JRA_LEADER_CUSTOM',	'Unique',		'COLOR_PLAYER_JRA_CIV_CUSTOM_LEAD
 -- 
 INSERT INTO Colors 
 		(Type, 														Red, 	Green, 	Blue, 	Alpha)
-VALUES	('COLOR_PLAYER_JRA_CIV_CUSTOM_LEADER_CUSTOM_PRIMARY', 		0.25,	1.00,	0.25,	1),
-		('COLOR_PLAYER_JRA_CIV_CUSTOM_LEADER_CUSTOM_SECONDARY', 	1.00,	0.00,	0.00,	1);
+VALUES	('COLOR_PLAYER_EBW_CIV_CUSTOM_LEADER_CUSTOM_PRIMARY', 		0.25,	1.00,	0.25,	1),
+		('COLOR_PLAYER_EBW_CIV_CUSTOM_LEADER_CUSTOM_SECONDARY', 	1.00,	0.00,	0.00,	1);
 
 
 --==========================================================================================================================
@@ -72,4 +72,4 @@ VALUES	('COLOR_PLAYER_JRA_CIV_CUSTOM_LEADER_CUSTOM_PRIMARY', 		0.25,	1.00,	0.25,
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LoadingInfo	
 		(LeaderType,						BackgroundImage, 						ForegroundImage,						PlayDawnOfManAudio)
-VALUES	('LEADER_JRA_LEADER_CUSTOM',		'LEADER_LEADER_CUSTOM_BACKGROUND',		'LEADER_LEADER_CUSTOM_NEUTRAL',			0);	
+VALUES	('LEADER_EBW_LEADER_CUSTOM',		'LEADER_LEADER_CUSTOM_BACKGROUND',		'LEADER_LEADER_CUSTOM_NEUTRAL',			0);	

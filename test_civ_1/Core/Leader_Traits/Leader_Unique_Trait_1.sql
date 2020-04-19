@@ -19,7 +19,7 @@ VALUES	('TRAIT_LEADER_EBW_CUSTOM_TRAIT_ONE',						'KIND_TRAIT');
 --------------------------------------------------------------------------------------------------------------------------				
 INSERT INTO Traits				
 		(TraitType,													Name,															Description)
-VALUES	('TRAIT_LEADER_EBW_CUSTOM_TRAIT_ONE',						'LOC_TRAIT_LEADER_JRA_LEADER_CUSTOM_TRAIT_ONE_NAME',			'LOC_TRAIT_LEADER_JRA_LEADER_CUSTOM_TRAIT_ONE_DESCRIPTION');	
+VALUES	('TRAIT_LEADER_EBW_CUSTOM_TRAIT_ONE',						'LOC_TRAIT_LEADER_EBW_LEADER_CUSTOM_TRAIT_ONE_NAME',			'LOC_TRAIT_LEADER_EBW_LEADER_CUSTOM_TRAIT_ONE_DESCRIPTION');	
 --------------------------------------------------------------------------------------------------------------------------		
 -- TraitModifiers		
 --------------------------------------------------------------------------------------------------------------------------			
@@ -32,14 +32,15 @@ VALUES	('TRAIT_LEADER_EBW_CUSTOM_TRAIT_ONE',						'EBW_LEADER_CUSTOM_TRAIT_MODIF
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Modifiers	
 		(ModifierId,													ModifierType)
-VALUES	('EBW_LEADER_CUSTOM_TRAIT_MODIFIER_ONE',						'MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER');
+VALUES	('EBW_LEADER_CUSTOM_TRAIT_MODIFIER_ONE',						'MODIFIER_PLAYER_CITIES_ADJUST_TRAIT_AMENITY'),
+VALUES	('EBW_LEADER_CUSTOM_TRAIT_MODIFIER_TWO',						'MODIFIER_PLAYER_CITIES_ADJUST_ALWAYS_LOYAL');
 --------------------------------------------------------------------------------------------------------------------------
 -- ModifierArguments
 -- Step two: Update the Name and Value arguments to the proper args
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO ModifierArguments
-		(ModifierId,													Name,							Value)
-VALUES	('EBW_LEADER_CUSTOM_TRAIT_MODIFIER_ONE',						'GovernmentSlotType',			'SLOT_ECONOMIC');
+		(ModifierId,									Amount)
+VALUES	('EBW_LEADER_CUSTOM_TRAIT_MODIFIER_ONE',		5);
 
 
 

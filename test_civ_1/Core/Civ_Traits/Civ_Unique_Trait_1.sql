@@ -16,14 +16,14 @@
 INSERT INTO Types	
 		(Type,													Kind)
 VALUES	('TRAIT_CIV_EBW_CUSTOM_TRAIT_ONE',						'KIND_TRAIT');
-		-- probably dont wanna insert the bulding here? Or do I need to? this line should likely be moved to the building file ('TRAIT_CIVILIZATION_BUILDING_JRA_CUSTOM',				'KIND_TRAIT');	
+		-- probably dont wanna insert the bulding here? Or do I need to? this line should likely be moved to the building file ('TRAIT_CIVILIZATION_BUILDING_EBW_CUSTOM',				'KIND_TRAIT');	
 --------------------------------------------------------------------------------------------------------------------------			
 -- Traits			
 --------------------------------------------------------------------------------------------------------------------------				
 INSERT INTO Traits				
 		(TraitType,												Name,													Description)
 VALUES	('TRAIT_CIV_EBW_CUSTOM_TRAIT_ONE',						'LOC_TRAIT_CIV_EBW_CUSTOM_TRAIT_ONE_NAME',				'LOC_TRAIT_CIV_EBW_CUSTOM_TRAIT_ONE_DESCRIPTION'),
-				-- probably dont wanna insert the bulding here? Or do I need to? this line should likely be moved to the building file ('TRAIT_CIVILIZATION_BUILDING_JRA_CUSTOM',			'LOC_TRAIT_CIVILIZATION_BUILDING_JRA_CUSTOM_NAME',		'LOC_TRAIT_CIVILIZATION_BUILDING_JRA_CUSTOM_DESCRIPTION');	
+				-- probably dont wanna insert the bulding here? Or do I need to? this line should likely be moved to the building file ('TRAIT_CIVILIZATION_BUILDING_EBW_CUSTOM',			'LOC_TRAIT_CIVILIZATION_BUILDING_EBW_CUSTOM_NAME',		'LOC_TRAIT_CIVILIZATION_BUILDING_EBW_CUSTOM_DESCRIPTION');	
 --------------------------------------------------------------------------------------------------------------------------		
 -- TraitModifiers
 -- Step two: Define modifier ID's for each of your trait's mods

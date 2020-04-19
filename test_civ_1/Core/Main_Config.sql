@@ -8,8 +8,8 @@
 -- LeaderTraits
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LeaderTraits	
-		(LeaderType,			TraitType)
-VALUES	('LEADER_JRA_LEADER_CUSTOM',	'TRAIT_LEADER_JRA_LEADER_CUSTOM_ECO');	
+		(LeaderType,					TraitType)
+VALUES	('LEADER_EBW_LEADER_CUSTOM',	'TRAIT_LEADER_EBW_CUSTOM_TRAIT_ONE');	
 
 
 
@@ -18,8 +18,8 @@ VALUES	('LEADER_JRA_LEADER_CUSTOM',	'TRAIT_LEADER_JRA_LEADER_CUSTOM_ECO');
 ----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO CivilizationTraits	
 		(TraitType,															CivilizationType)
-VALUES	('TRAIT_CIVILIZATION_JRA_GRIND',									'CIVILIZATION_JRA_CIV_CUSTOM'),
-		('TRAIT_CIVILIZATION_BUILDING_JRA_CUSTOM',							'CIVILIZATION_JRA_CIV_CUSTOM');
+VALUES	('TRAIT_CIVILIZATION_EBW_GRIND',									'CIVILIZATION_EBW_CIV_CUSTOM'),
+		('TRAIT_CIVILIZATION_BUILDING_EBW_CUSTOM',							'CIVILIZATION_EBW_CIV_CUSTOM');
 
 
 

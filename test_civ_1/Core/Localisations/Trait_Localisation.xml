@@ -5,27 +5,27 @@
 <GameData>
 	<LocalizedText>	
 		<!--Traits-->
-		<Row Tag="LOC_TRAIT_LEADER_JRA_LEADER_CUSTOM_ECO_NAME" Language="en_US">
+		<Row Tag="LOC_TRAIT_LEADER_EBW_LEADER_CUSTOM_ECO_NAME" Language="en_US">
 			<Text>Wheeler Dealer</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_JRA_LEADER_CUSTOM_ECO_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_TRAIT_LEADER_EBW_LEADER_CUSTOM_ECO_DESCRIPTION" Language="en_US">
 			<Text>+1 Extra Economic Slot in any government.</Text>
 		</Row>
 
 
-		<Row Tag="LOC_TRAIT_CIVILIZATION_JRA_GRIND_NAME" Language="en_US">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_EBW_GRIND_NAME" Language="en_US">
 			<Text>The Grind</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_JRA_GRIND_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_EBW_GRIND_DESCRIPTION" Language="en_US">
 			<Text>+50% Experience for all units. When killing a unit, you recieve [Icon_Gold] Gold equal to it's Combat Strength.</Text>
 		</Row>
 
 
 
-		<Row Tag="LOC_BUILDING_JRA_CUSTOM_NAME" Language="en_US">
+		<Row Tag="LOC_BUILDING_EBW_CUSTOM_NAME" Language="en_US">
 			<Text>Barbarian Hate Club</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_JRA_CUSTOM_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_BUILDING_EBW_CUSTOM_DESCRIPTION" Language="en_US">
 			<Text>+1 [Icon_Strength] Combat Strength Vs Barbarians for each Hate Club built.</Text>
 		</Row>
 	</LocalizedText>
