@@ -9,18 +9,16 @@
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LeaderTraits	
 		(LeaderType,					TraitType)
-VALUES	('LEADER_EBW_LEADER_CUSTOM',	'TRAIT_LEADER_EBW_CUSTOM_TRAIT_ONE');	
-
-
+VALUES	('LEADER_EBW_LEADER_CUSTOM',	'TRAIT_LEADER_EBW_CUSTOM_TRAIT_ONE'), -- register stoicism
+		('LEADER_EBW_LEADER_CUSTOM',	'TRAIT_LEADER_EBW_CUSTOM_TRAIT_ONE'), -- register the last good king
+		('LEADER_EBW_LEADER_CUSTOM',	'TRAIT_LEADER_EBW_CUSTOM_TRAIT_ONE'); -- register the school of philosophy	
 
 ----------------------------------------------------------------------------------------------------------------------------
--- CivilizationTraits
+-- CivilizationLeaders
 ----------------------------------------------------------------------------------------------------------------------------	
-INSERT INTO CivilizationTraits	
-		(TraitType,															CivilizationType)
-VALUES	('TRAIT_CIVILIZATION_EBW_GRIND',									'CIVILIZATION_EBW_CIV_CUSTOM'),
-		('TRAIT_CIVILIZATION_BUILDING_EBW_CUSTOM',							'CIVILIZATION_EBW_CIV_CUSTOM');
-
+INSERT INTO CivilizationLeaders	
+		(CivilizationType,						LeaderType,			CapitalName)
+VALUES	('CIVILIZATION_ROME',	'LEADER_EBW_LEADER_CUSTOM',		'LOC_CITY_NAME_EBW_CIV_CUSTOM_1'); -- register leader with existing civ
 
 
 

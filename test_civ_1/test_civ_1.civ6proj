@@ -38,16 +38,13 @@
     <Folder Include="Reference" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Core\Civ_Information.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Civ_Traits\Civ_Unique_Trait_1.sql">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Core\Leader_Information.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Leader_Traits\Leader_Unique_Trait_1.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leader_Traits\Leader_Unique_Trait_2.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Localisations\Civ_Localisation.xml">
